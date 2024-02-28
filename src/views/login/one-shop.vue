@@ -4,7 +4,12 @@
 
 <script>
 export default {
-  name:'one_shopping'
+  name:'one_shopping',
+  data(){
+    return {
+      List:[]
+    }
+  }
 }
 </script>
 
