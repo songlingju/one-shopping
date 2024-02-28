@@ -1,5 +1,7 @@
 <template>
-  <div class="box"></div>
+  <div class="box">
+    {{ message }}
+  </div>
 </template>
 
 <script>
@@ -7,7 +9,8 @@ export default {
   name:'one_shopping',
   data(){
     return {
-      List:[]
+      List:[],
+      message:'nihao'
     }
   }
 }
