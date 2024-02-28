@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ceshi'
+  name: 'ceshide'
 }
 </script>
 
